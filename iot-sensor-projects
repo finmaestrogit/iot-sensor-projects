@@ -1,0 +1,8 @@
+# read_sensor.py
+import random
+
+def read_temperature_sensor():
+    return random.uniform(20.0, 30.0)
+
+temperature = read_temperature_sensor()
+print(f"Current temperature: {temperature:.2f} °C")
